@@ -1,1 +1,18 @@
+@use 'header';
+@use 'footer';
 @import '~bootstrap/scss/bootstrap';
+
+.container {
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

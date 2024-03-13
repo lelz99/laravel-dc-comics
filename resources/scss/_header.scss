@@ -1,0 +1,18 @@
+nav {
+    div {
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+#jumbotron {
+    background-image: url('../img/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
