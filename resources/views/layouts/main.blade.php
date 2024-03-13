@@ -17,7 +17,11 @@
     </header>
 
     {{-- Main --}}
-    <main></main>
+    <main>
+        <section id="comics">
+            @yield('comics')
+        </section>
+    </main>
 
     <footer>
         {{-- Footer Top --}}
