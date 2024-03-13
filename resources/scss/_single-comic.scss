@@ -1,0 +1,87 @@
+#single-comic {
+    padding: 30px 0;
+    position: relative;
+
+    .thumb {
+        width: 200px;
+        border: 1px solid white;
+        position: absolute;
+        left: 0;
+        bottom: 300px;
+    }
+
+    .row {
+        display: flex;
+
+        .col-70 {
+            flex-basis: 70%;
+
+            .card {
+                padding-right: 30px;
+
+                .card-header {
+
+                    h2 {
+                        font-size: 2rem;
+                        color: #003f5e;
+                    }
+
+                    .alert {
+                        display: flex;
+                        justify-content: space-between;
+                        background-color: #55ba59;
+                        padding: 10px 20px;
+                        font-weight: 700;
+                        color: white;
+                        margin: 10px 0;
+
+                        div {
+                            display: flex;
+                            gap: 20px;
+                        }
+                    }
+                }
+
+                .card-body {
+                    line-height: 30px;
+                }
+            }
+        }
+
+        .col-30 {
+            flex-basis: 30%;
+        }
+    }
+}
+
+#comic-info {
+    background-color: #f6f6f6;
+    padding: 30px;
+
+    .row {
+        display: flex;
+        gap: 50px;
+
+        .col {
+            flex-basis: 50%;
+
+            .artists-writers {
+                display: flex;
+                margin-top: 20px;
+                padding-right: 10px;
+                border-top: 1px solid lightgray;
+
+                h5 {
+                    flex-basis: 30%;
+                    margin-top: 10px;
+                }
+
+                p {
+                    flex-basis: 70%;
+                    margin-top: 10px;
+                    color: #00a9dc;
+                }
+            }
+        }
+    }
+}
