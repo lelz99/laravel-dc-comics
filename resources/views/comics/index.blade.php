@@ -17,5 +17,6 @@
         </div>
         @endforeach
     </div>
+    <a href="{{route('comics.create')}}">Aggiungi Comic</a>
 </div>
 @endsection
