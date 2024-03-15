@@ -25,6 +25,7 @@
           <img src="{{Vite::asset('resources/img/adv.jpg')}}" alt="">
        </div>
     </div>
+    <a class="btn btn-warning" href="{{route('comics.edit', $comic->id)}}">Modifica</a>
  </section>
  
  <section id="comic-info">
@@ -56,5 +57,6 @@
           </div>
        </div>
     </div>
+    <a class="btn btn-warning" href="{{route('comics.edit', $comic->id)}}">Modifica</a>
  </section>
 @endsection

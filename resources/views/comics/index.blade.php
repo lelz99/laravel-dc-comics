@@ -17,6 +17,6 @@
         </div>
         @endforeach
     </div>
-    <a href="{{route('comics.create')}}">Aggiungi Comic</a>
+    <a class="btn btn-primary" href="{{route('comics.create')}}">Aggiungi Comic</a>
 </div>
 @endsection
