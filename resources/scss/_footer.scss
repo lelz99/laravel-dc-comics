@@ -1,5 +1,7 @@
 .footer-top {
     background-image: url('../img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 
     h3 {
         color: white;
@@ -15,11 +17,30 @@
     }
 
     .col-12 {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         color: #858980;
 
         a {
-            color: blue;
+            color: #0282f9;
+        }
+    }
+
+
+    .logo-dc {
+        background-image: url('../img/dc-logo-bg.png');
+        background-repeat: no-repeat;
+        background-size: 600px;
+        background-position-x: right;
+        background-position-y: -50px;
+    }
+}
+
+.footer-bottom {
+    background-color: #303030;
+
+    ul {
+        li {
+            margin-left: 0.8rem;
         }
     }
 }

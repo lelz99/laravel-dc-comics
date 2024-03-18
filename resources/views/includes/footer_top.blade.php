@@ -1,8 +1,8 @@
 <div class="footer-top">
-    <div class="container py-3">
+    <div class="container">
         <div class="row row-cols-2">
             <div class="col">
-                <div class="row pt-4">
+                <div class="row py-4">
                     <div class="col-3">
                         <h3 class="h5 fw-bold">DC COMICS</h3>
                         <ul>
@@ -52,9 +52,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col text-end">
-                <img class="img-fluid w-50" src="{{Vite::asset('resources/img/dc-logo-bg.png')}}" alt="Logo Dc Comics">
-            </div>
+            <div class="col logo-dc"></div>
         </div>
     </div>
 </div>

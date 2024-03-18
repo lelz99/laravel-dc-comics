@@ -1,11 +1,15 @@
 nav {
+    .img-fluid {
+        max-width: 80%;
+    }
+
     div {
         ul {
-            list-style: none;
             display: flex;
             align-items: center;
             gap: 20px;
             text-transform: uppercase;
+            font-weight: 700;
         }
     }
 }

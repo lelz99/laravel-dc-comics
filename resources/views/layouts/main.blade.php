@@ -18,15 +18,18 @@
 
     {{-- Main --}}
     <main>
-        <section id="comics">
+        <section id="@yield('section-id')">
             @yield('comics')
         </section>
+        @yield('comic-info')
     </main>
 
     <footer>
         {{-- Footer Top --}}
         @include('includes.footer_top')
+        
         {{-- Footer Bottom --}}
+        @include('includes.footer_bottom')
     </footer>
 </body>
 </html>
