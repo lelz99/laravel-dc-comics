@@ -72,7 +72,14 @@
             </div>
          </div>
       </div>
-      <a class="btn btn-warning" href="{{route('comics.edit', $comic->id)}}">Modifica</a>
+      <div class="d-flex gap-2">
+         <a class="btn btn-warning" href="{{route('comics.edit', $comic->id)}}">Modifica</a>
+         <form action="{{route('comics.destroy', $comic->id)}}" method="POST">
+            @csrf
+            @method('DELETE')
+            <button class="btn btn-danger" type="submit">Elimina</button>
+         </form>
+      </div>
    </div>
 </section>
 @endsection
